@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29889F1720034C74004BC221 /* ChieryConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 29889F1620034C74004BC221 /* ChieryConfigure.m */; };
-		29889F1820034C74004BC221 /* ChieryConfigure.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29889F1520034C74004BC221 /* ChieryConfigure.h */; };
+		29889F2320034D11004BC221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29889F2220034D11004BC221 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				29889F1820034C74004BC221 /* ChieryConfigure.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		29889F1220034C74004BC221 /* libChieryConfigure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChieryConfigure.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		29889F1520034C74004BC221 /* ChieryConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChieryConfigure.h; sourceTree = "<group>"; };
-		29889F1620034C74004BC221 /* ChieryConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChieryConfigure.m; sourceTree = "<group>"; };
+		29889F2120034D11004BC221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29889F2220034D11004BC221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +58,8 @@
 		29889F1420034C74004BC221 /* ChieryConfigure */ = {
 			isa = PBXGroup;
 			children = (
-				29889F1520034C74004BC221 /* ChieryConfigure.h */,
-				29889F1620034C74004BC221 /* ChieryConfigure.m */,
+				29889F2120034D11004BC221 /* AppDelegate.h */,
+				29889F2220034D11004BC221 /* AppDelegate.m */,
 			);
 			path = ChieryConfigure;
 			sourceTree = "<group>";
@@ -123,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29889F1720034C74004BC221 /* ChieryConfigure.m in Sources */,
+				29889F2320034D11004BC221 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
