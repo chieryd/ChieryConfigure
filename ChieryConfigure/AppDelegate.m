@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ChieryVCController.h"
+#import "ChieryHomePage.h"
 
 @implementation AppDelegate
 
@@ -14,6 +16,13 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    ChieryHomePage *homePage = [[ChieryHomePage alloc] init];
+    
+    ChieryVCController *controller = [ChieryVCController getInstance];
+    controller.navigationController = [[UINavigationController alloc] initWithRootViewController:homePage];
+    [self.window setRootViewController:controller.navigationController];
+    
     [self.window makeKeyAndVisible];
     
     return YES;

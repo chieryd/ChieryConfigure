@@ -4,9 +4,9 @@ ENV["COCOAPODS_DISABLE_STATS"] = "true"
 
 source 'git@github.com:chieryd/ChieryPodSpec.git'
 
-target 'ChieryHomePage' do
+target 'ChieryConfigure' do
 
-	pod 'ChieryCommonHomePage'
+	pod 'ChieryHomePage'
 	pod 'ChieryCommonKit'
 	pod 'ChieryVCController'
 
