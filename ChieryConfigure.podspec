@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ChieryConfigure"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "appdelegate"
 
   # This description is used to generate tags and improve search results.
@@ -135,9 +135,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "ChieryHomePage"
-  s.dependency "ChieryCommonKit"
-  s.dependency "ChieryVCController"
+  s.dependency "ChieryHomePageLib"
+  s.dependency "ChieryCommonKitLib"
+  s.dependency "ChieryVCControllerLib"
 
 
 end

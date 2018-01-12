@@ -6,8 +6,8 @@ source 'git@github.com:chieryd/ChieryPodSpec.git'
 
 target 'ChieryConfigure' do
 
-	pod 'ChieryHomePage'
-	pod 'ChieryCommonKit'
-	pod 'ChieryVCController'
+	pod 'ChieryHomePageLib'
+	pod 'ChieryCommonKitLib'
+	pod 'ChieryVCControllerLib'
 
 end
